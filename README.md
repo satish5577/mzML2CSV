@@ -79,9 +79,15 @@ The script will process the MzML files in the input folder, apply the intensity 
 ### 6. Review the Output
 
 The script will provide progress updates as it processes each file. Once the conversion is complete, you will see a message indicating that the data has been saved to the output folder.
+Related Publication
+
 
 ## Conclusion
 
 The MzML2CSV Converter simplifies the conversion of Mass Spectrometry data from MzML to CSV format, making it easier for you to work with the data in various data analysis and research applications. If you encounter any issues or have questions, feel free to reach out to the project's author or the GitHub community for assistance.
 
 We hope you find this tool helpful for your Mass Spectrometry data analysis projects!
+
+## Example Data Set
+
+https://doi.org/10.5281/zenodo.8406634
