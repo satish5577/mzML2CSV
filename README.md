@@ -26,6 +26,10 @@ Before using the MzML2CSV Converter, ensure that you have the following prerequi
   pip install pyteomics
   ```
 
+    ```shell
+  pip install lxml
+  ```
+
 ## Getting Started
 
 Follow these steps to convert your MzML files to CSV format:
@@ -35,18 +39,15 @@ Follow these steps to convert your MzML files to CSV format:
 Obtain the MzML2CSV Converter script by cloning the GitHub repository to your local machine. Use the following command to clone the repository:
 
 ```shell
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/satish5577/mzML2CSV.git
 ```
-
-Replace `your-username` and `your-repository` with your GitHub username and the name of your repository.
-
 ### 2. Organize Your Data
 
 Place your MzML files that you want to convert into a dedicated folder on your local system. This folder will serve as the input folder for the conversion process.
 
 ### 3. Configure Input and Output Folders
 
-Edit the `mzml.py` script to specify the paths for your input and output folders:
+Edit the `mzML2csv.py` script to specify the paths for your input and output folders:
 
 ```python
 # Specify the input folder containing mzML files and the output folder for CSV files
@@ -67,10 +68,10 @@ intensity_threshold = 1000  # Adjust this value as needed
 
 ### 5. Run the Script
 
-Open your command prompt or terminal, navigate to the folder where the `mzml.py` script is located, and run the script:
+Open your command prompt or terminal, navigate to the folder where the `mzML2csv.py` script is located, and run the script:
 
 ```shell
-python mzml.py
+mzML2csv.py
 ```
 
 The script will process the MzML files in the input folder, apply the intensity filter (if specified), convert them to CSV format, and save the CSV files in the specified output folder.
